@@ -21,7 +21,7 @@ public class TextBoxExample {
 
     @Test
     public void textBoxtests(){
-        //Type your name
+        //Type your name here
         WebElement name = driver.findElement(By.id("j_idt88:name"));
         name.sendKeys("Nimantha Manage");
 
