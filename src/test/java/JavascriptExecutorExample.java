@@ -44,7 +44,14 @@ public class JavascriptExecutorExample {
 
         scrollPae();
 
+    //page refresh
+    jsExecutor.executeScript("location.reload();");
 
+    //page zoom
+
+
+
+        jsExecutor.executeScript("document.body.style.zoom='150%';");
 
     }
 
